@@ -6,10 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alpaca Code Editor</title>
     <meta name="description" content="Online JavaScript Compiler">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="editor-menu">
+        <button class="btn btn-dark">Dark Mode</button>
+        <button class="btn btn-light">Light Mode</button>
+        <button class="btn btn-run"><i class="fa fa-play"></i>Run</button>
+        <div class="live">
+            <label for="live">Live-</label>
+            <input type="checkbox" id="live">
+        </div>
+    </div>
     <script src="scripts.js"></script>
 </body>
 </html>
